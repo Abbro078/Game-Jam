@@ -32,17 +32,8 @@ public class CameraManager : MonoBehaviour
             return;
         }
 
-        // for (int i = 0; i < allVirtualCameras.Length ; i++)
-        // {
-        //     if(allVirtualCameras[i].enabled)
-        //     {
-        //         framingTransposer = allVirtualCameras[i].GetCinemachineComponent<CinemachineFramingTransposer>();
-        //         Debug.Log(allVirtualCameras[i]);
-        //     }
-        // }
-
         InitializeCameras();
-        
+
         framingTransposer = allVirtualCameras[current].GetCinemachineComponent<CinemachineFramingTransposer>();
         
         Debug.Log("Awake");
