@@ -1,0 +1,1052 @@
+fileFormatVersion: 2
+guid: da1bf8ea50b36a44685181eb707ec03f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pixel Furnitures_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 454
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c06e4b57512e248ae5f68f3d358c57
+      internalID: -418043944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 454
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45cd086e2b7d6f34f9b974a8549ca7be
+      internalID: -1216509784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 454
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7889301ee0c07ff4e97631f5d8554bbd
+      internalID: 1041110030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 454
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e626f756b39d05843ab32960324cb851
+      internalID: 599487681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_4
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 454
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39a4fdc11808ea47b4667461658d2f8
+      internalID: 682291095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_5
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 454
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe8943c9db30784487fa69dfd6152c5
+      internalID: -1109953143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 390
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39007fce9fac6f6418182c988a6d9085
+      internalID: 1272763107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 390
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254bd2ef58ff3814684a00aa689e626c
+      internalID: -781607001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 390
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a23dd5bfc61b4f45a82ed05c42c67fc
+      internalID: 806502791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 390
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b65157af779e649873fb5b2eb1d0a3
+      internalID: 2054269240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 390
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dab718dcf133d4e979a5e0308c62e0
+      internalID: 363164820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 390
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c10265ded3fbef4c9a0745f8633ad21
+      internalID: 1128617791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_12
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 390
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68b8e8bf14b26447aedac4d1e6c8653
+      internalID: -599734578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 390
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bc5fd6cca01f445bb58941f4b66bb2
+      internalID: 700943995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_14
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 390
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6ba5f6dc25cd145b2d70cdc6007c10
+      internalID: -1959703919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_15
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 390
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac66c43659b25d24583a973112289746
+      internalID: 520286519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 342
+        width: 73
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505cc840918e1ae4a85e3a14f8027524
+      internalID: -1301323963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 342
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a1647104fc1524292434ba43b1cc55
+      internalID: 1125390531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_18
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 342
+        width: 80
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f493ce87c9347c84592da528480d2d8a
+      internalID: -1509583542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_19
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 342
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f6e96925c1d9d4c84df1d758e0bb30
+      internalID: 69956499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_20
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 278
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a5ddfec7092df4d9cd21acf054bdbb
+      internalID: 1448805466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_21
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 278
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be009beacd74b7949a39552c1471a728
+      internalID: 1571183719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 278
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f915c3a076edcca4ba3c928d2276dce4
+      internalID: -103250399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_23
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 278
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afef0ec96c2db42439a40c31c76ab934
+      internalID: 1350629111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 278
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11a75a0e8afea04582bcf44d846b140
+      internalID: 299276804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_25
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 278
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7209f2d270a754f95842b0b4ced724
+      internalID: 196192677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_26
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 278
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c318681feff0a246be58243ae0dfbe1
+      internalID: 1629585983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_27
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 278
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee6dae58ce58994fa7e3d732349fbb8
+      internalID: -1400953994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_28
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 278
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f431d3143f98e43a69e457323b6669
+      internalID: 1766248926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_29
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 278
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97eda6c4040544e41aeec9edebdbb73f
+      internalID: 1333551422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 214
+        width: 41
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e02367748fb864fb40fe50dcbb5bfd
+      internalID: 1529979730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 214
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a3481d93d4ff84cbc0fae4ec96d3fe
+      internalID: -2034354080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 214
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7130a887085325e4d8261d5193e17e5b
+      internalID: -667647613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 214
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2c88eba9abff646800a4930346b163
+      internalID: 800083439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_34
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 215
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0afac91b5fd4f4b9cddb3ab393411c
+      internalID: 1951961040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_35
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 214
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77fc2cadf203424b82016e1789a4937
+      internalID: 1711970115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_36
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 214
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fbdab95fa813348818e16c32561f56
+      internalID: 1033309988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_37
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 214
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9b939aec7ef204286e95a6bebc82c2
+      internalID: -33571640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_38
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 214
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067ea124b2415be46aa19dd4ef46fd5e
+      internalID: 1935437099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_39
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 216
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7066b8fb098dc9747b1c259d6e44cf58
+      internalID: 299390334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_40
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 214
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70383d31fa58bc94c9a9e11a2934146a
+      internalID: 1466130570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pixel Furnitures_41
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 214
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ae5c451cca1e649a7abc913ca83fb5
+      internalID: 798390084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pixel Furnitures_0: -418043944
+      Pixel Furnitures_1: -1216509784
+      Pixel Furnitures_10: 363164820
+      Pixel Furnitures_11: 1128617791
+      Pixel Furnitures_12: -599734578
+      Pixel Furnitures_13: 700943995
+      Pixel Furnitures_14: -1959703919
+      Pixel Furnitures_15: 520286519
+      Pixel Furnitures_16: -1301323963
+      Pixel Furnitures_17: 1125390531
+      Pixel Furnitures_18: -1509583542
+      Pixel Furnitures_19: 69956499
+      Pixel Furnitures_2: 1041110030
+      Pixel Furnitures_20: 1448805466
+      Pixel Furnitures_21: 1571183719
+      Pixel Furnitures_22: -103250399
+      Pixel Furnitures_23: 1350629111
+      Pixel Furnitures_24: 299276804
+      Pixel Furnitures_25: 196192677
+      Pixel Furnitures_26: 1629585983
+      Pixel Furnitures_27: -1400953994
+      Pixel Furnitures_28: 1766248926
+      Pixel Furnitures_29: 1333551422
+      Pixel Furnitures_3: 599487681
+      Pixel Furnitures_30: 1529979730
+      Pixel Furnitures_31: -2034354080
+      Pixel Furnitures_32: -667647613
+      Pixel Furnitures_33: 800083439
+      Pixel Furnitures_34: 1951961040
+      Pixel Furnitures_35: 1711970115
+      Pixel Furnitures_36: 1033309988
+      Pixel Furnitures_37: -33571640
+      Pixel Furnitures_38: 1935437099
+      Pixel Furnitures_39: 299390334
+      Pixel Furnitures_4: 682291095
+      Pixel Furnitures_40: 1466130570
+      Pixel Furnitures_41: 798390084
+      Pixel Furnitures_42: 1240866620
+      Pixel Furnitures_5: -1109953143
+      Pixel Furnitures_6: 1272763107
+      Pixel Furnitures_7: -781607001
+      Pixel Furnitures_8: 806502791
+      Pixel Furnitures_9: 2054269240
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
