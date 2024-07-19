@@ -12,22 +12,40 @@ public class CameraManager : MonoBehaviour
     private CinemachineFramingTransposer framingTransposer;
     private int current = 0;
 
+
+    private void InitializeCameras()
+    {
+        for (int i = 0; i < allVirtualCameras.Length; i++)
+        {
+            allVirtualCameras[i].enabled = (i == 0);
+        }
+    }
     private void Awake() 
     {
         if(instance == null)
         {
             instance = this;
         }
-
-        for (int i = 0; i < allVirtualCameras.Length ; i++)
+        else
         {
-            if(allVirtualCameras[i].enabled)
-            {
-                framingTransposer = allVirtualCameras[i].GetCinemachineComponent<CinemachineFramingTransposer>();
-                Debug.Log(allVirtualCameras[i]);
-            }
+            Destroy(gameObject);
+            return;
         }
-        Debug.Log("Aya<3");
+
+        // for (int i = 0; i < allVirtualCameras.Length ; i++)
+        // {
+        //     if(allVirtualCameras[i].enabled)
+        //     {
+        //         framingTransposer = allVirtualCameras[i].GetCinemachineComponent<CinemachineFramingTransposer>();
+        //         Debug.Log(allVirtualCameras[i]);
+        //     }
+        // }
+
+        InitializeCameras();
+        
+        framingTransposer = allVirtualCameras[current].GetCinemachineComponent<CinemachineFramingTransposer>();
+        
+        Debug.Log("Awake");
     }
 
     private void Start() {
@@ -36,43 +54,27 @@ public class CameraManager : MonoBehaviour
 
     public void SwapCameraRight()
     {
-        Debug.Log(current);
-        if(current == 3)
-        {
-            allVirtualCameras[0].enabled = true;
-            allVirtualCameras[current].enabled = false;
-            current = 0;
-            framingTransposer = allVirtualCameras[current].GetCinemachineComponent<CinemachineFramingTransposer>();
-        }
-        else
-        {
-            allVirtualCameras[current+1].enabled = true;
-            allVirtualCameras[current].enabled = false;
-            current++;
-            framingTransposer = allVirtualCameras[current].GetCinemachineComponent<CinemachineFramingTransposer>();
-        }
-        Debug.Log("After"+current);
+        Debug.Log("Current camera index before swap right: " + current);
+
+        int next = (current + 1) % allVirtualCameras.Length;
+        allVirtualCameras[next].enabled = true;
+        allVirtualCameras[current].enabled = false;
+        current = next;
+
+        framingTransposer = allVirtualCameras[current].GetCinemachineComponent<CinemachineFramingTransposer>();
+        Debug.Log("Current camera index after swap right: " + current);
     }
 
     public void SwapCameraLeft()
     {
-        Debug.Log(current);
-        if(current == 0)
-        {
-            allVirtualCameras[3].enabled = true;
-            Debug.Log(allVirtualCameras[3]);
-            allVirtualCameras[current].enabled = false;
-            current = 3;
-            framingTransposer = allVirtualCameras[current].GetCinemachineComponent<CinemachineFramingTransposer>();
-        
-        }
-        else
-        {
-            allVirtualCameras[current-1].enabled = true;
-            allVirtualCameras[current].enabled = false;
-            current--;
-            framingTransposer = allVirtualCameras[current].GetCinemachineComponent<CinemachineFramingTransposer>();
-        }
-        Debug.Log("After"+current);
+        Debug.Log("Current camera index before swap left: " + current);
+
+        int prev = (current - 1 + allVirtualCameras.Length) % allVirtualCameras.Length;
+        allVirtualCameras[prev].enabled = true;
+        allVirtualCameras[current].enabled = false;
+        current = prev;
+
+        framingTransposer = allVirtualCameras[current].GetCinemachineComponent<CinemachineFramingTransposer>();
+        Debug.Log("Current camera index after swap left: " + current);
     }
 }
