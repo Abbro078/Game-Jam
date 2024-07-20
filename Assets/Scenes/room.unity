@@ -3672,7 +3672,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraToMove: {fileID: 1928283292}
   planeToMove: {fileID: 1746537749}
-  batteryLife: 10
+  batteryLife: 10000
   drainRate: 10
   batteryLifeText: {fileID: 1403785183}
   gameOverText: {fileID: 1379523651}
@@ -4106,7 +4106,7 @@ Camera:
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 119
+    m_Bits: 247
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -6722,7 +6722,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1987103995
 Transform:
   m_ObjectHideFlags: 0
