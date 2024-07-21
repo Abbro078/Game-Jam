@@ -7,6 +7,7 @@ public class CameraFollowCursor : MonoBehaviour
     public Camera cameraToMove;
     public GameObject planeToMove;
     private bool toggle = false;
+    public GameObject Flashlight;
 
     public float batteryLife = 100f; // Initial battery life
     public float drainRate = 10f; // Battery drain rate per second
@@ -38,7 +39,7 @@ public class CameraFollowCursor : MonoBehaviour
 
     void HandleFlashlightToggle()
     {
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(1) && !Flashlight.activeSelf)
         {
             toggle = !toggle;
             planeToMove.SetActive(toggle);
