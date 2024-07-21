@@ -1,5 +1,6 @@
 using UnityEngine;
-using TMPro; // Using TextMeshPro
+using TMPro;
+using UnityEngine.SceneManagement; // Using TextMeshPro
 
 public class CameraFollowCursor : MonoBehaviour
 {
@@ -86,8 +87,10 @@ public class CameraFollowCursor : MonoBehaviour
         if (gameOverText != null)
         {
             batteryLifeText.gameObject.SetActive(false);
-            gameOverText.gameObject.SetActive(true);
-            gameOverText.text = "Game Over";
+            // gameOverText.gameObject.SetActive(true);
+            // gameOverText.text = "Game Over";
+
+            GameManager.LoadEndScene(false);
         }
     }
 }
