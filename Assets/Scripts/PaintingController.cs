@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,14 +16,44 @@ public class PaintingController : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (!isOpen)
+        if(GameManager.collectedCount == 5)
         {
-            Open();
+            if (!isOpen)
+            {
+                OpenWithLetter();
+            }
+            else
+            {
+                CloseWithLetter();
+            }
         }
         else
         {
-            Close();
+            if (!isOpen)
+            {
+                Open();
+            }
+            else
+            {
+                Close();
+            }
         }
+        
+    }
+
+
+    private void OpenWithLetter()
+    {
+        animator.SetTrigger("openLetter");
+        coloredAnimator.SetTrigger("openLetter");
+        isOpen = true;
+    }
+
+    private void CloseWithLetter()
+    {
+        animator.SetTrigger("closeLetter");
+        coloredAnimator.SetTrigger("closeLetter");
+        isOpen = false;
     }
 
     void Open()
