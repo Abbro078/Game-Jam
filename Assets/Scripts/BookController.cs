@@ -7,6 +7,8 @@ public class BookController : MonoBehaviour
     private Animator animator;
     private bool isOpen = false;
 
+    public Animator coloredAnimator;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -27,12 +29,14 @@ public class BookController : MonoBehaviour
     void Open()
     {
         animator.SetTrigger("open");
+        coloredAnimator.SetTrigger("open");
         isOpen = true;
     }
 
     void Close()
     {
         animator.SetTrigger("close");
+        coloredAnimator.SetTrigger("close");
         isOpen = false;
     }
 }

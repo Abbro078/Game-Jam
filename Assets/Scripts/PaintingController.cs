@@ -6,6 +6,7 @@ public class PaintingController : MonoBehaviour
 {
     private Animator animator;
     private bool isOpen = false;
+    public Animator coloredAnimator;
 
     void Start()
     {
@@ -27,12 +28,14 @@ public class PaintingController : MonoBehaviour
     void Open()
     {
         animator.SetTrigger("open");
+        coloredAnimator.SetTrigger("open");
         isOpen = true;
     }
 
     void Close()
     {
         animator.SetTrigger("close");
+        coloredAnimator.SetTrigger("close");
         isOpen = false;
     }
 }

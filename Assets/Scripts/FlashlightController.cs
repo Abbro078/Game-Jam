@@ -5,6 +5,7 @@ using UnityEngine;
 public class FlashlightController : MonoBehaviour
 {
     private bool isActive = true;
+    public GameObject coloredFlashlight;
 
     void OnMouseDown()
     {
@@ -15,5 +16,6 @@ public class FlashlightController : MonoBehaviour
     {
         isActive = !isActive;
         gameObject.SetActive(isActive);
+        coloredFlashlight.gameObject.SetActive(isActive);
     }
 }
