@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 710907acd845f08479137cb1a66624f9
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 guid: 710907acd845f08479137cb1a66624f9
@@ -8,6 +8,8 @@ guid: 710907acd845f08479137cb1a66624f9
 guid: 4e55d9ed7efbc6a4a928796d74a9937e
 >>>>>>> 9e3d339390223f1f5a1e075ce643a0f009084bb8
 >>>>>>> 0425d5053e691d7a18f7ebee9c65551562e3570a
+=======
+>>>>>>> ac43fd90dcb4b0e46910a8a74d1819b2f937e9ad
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +49,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -71,16 +73,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -93,7 +95,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
